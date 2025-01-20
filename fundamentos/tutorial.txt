@@ -1,0 +1,15 @@
+Java Script
+
+- A linguagem JS é case sentive (faz diferença entre letras maiúsculas e minúsculas)
+- No JS o ; é opicional
+- Você pode usar "" ou '' não é permitido misturar "' '"
+Dica: usar "textos" e 'importações'
+
+Variaveis na linguagem JS são 
+
+________________________________________________________________________________
+
+NODE - Plataforma que permite executar o JS fora do navegador de internet
+comandos NODE:
+node -v (versão do node)
+node arquivo.js (executar o arquivo javascript)
