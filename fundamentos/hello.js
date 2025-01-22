@@ -1,3 +1,5 @@
 
 
-console.clear();
+
+console.clear()
+console.log()
