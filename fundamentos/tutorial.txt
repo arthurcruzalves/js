@@ -1,15 +1,60 @@
 Java Script
 
-- A linguagem JS é case sentive (faz diferença entre letras maiúsculas e minúsculas)
-- No JS o ; é opicional
-- Você pode usar "" ou '' não é permitido misturar "' '"
+- A linguagem JS é case sentive (faz diferença entre letras maiúsculas e minusculas)
+- No JS o ; é opcional
+- Você pode ser "" ou '' não é permitido misturar "' '"
 Dica: usar "textos" e 'importações'
 
-Variaveis na linguagem JS são 
+Variáveis na linguagem JS são dinãmicamente tipadas.
+- String
+- Number
+- Boolean
 
-________________________________________________________________________________
+- Function
+- Object 
 
-NODE - Plataforma que permite executar o JS fora do navegador de internet
-comandos NODE:
-node -v (versão do node)
-node arquivo.js (executar o arquivo javascript)
+Para criar uma constante usamos: const 
+Para criar uma variável podemos usar var ou let, var (obsoleto e inseguro (redeclarar a variável))
+usar sempre o let
+
+Concatenação (União dos textos com variáveis) + (operador de soma) !EVITAR (tipagem dinâmica)
+Usar crase (Forma moderna e segura) `texto ${variável}
+____________________________________________________________________________________
+Podemos executar código JS no HTML de 2 formas:
+1: Diretamente usando a tag <script></script>
+2: Criando um documento js e linkando com o html usando a tag <script src="script.js"></script>
+____________________________________________________________________________________
+
+NODE - Plataforma que permite execultar o JS fora do navegador de internet
+Comandos NODE
+node -v (versão no node)
+node arquivo.js (exercutar o aquivo JavaScript)
+
+______________________________________________________________________________________
+FRAMEWORK
+Um framework é um conjunto de ferramentos, bibliotecas e regras
+que facilita o desenvolvimento de software, fornecendo uma estrutura 
+pronta para o programador. O framework define um "esqueleto" do 
+projeto, onde você preenche com seu código, seguindo padrões já 
+estabelecidos. Isso economiza tempo, evita a repetição de código 
+e garante boas práticas.
+Um framework é como montar um hambúrgue em uma rede de fast food.
+Sem um framework, você teria que moer a carne, assar pão, 
+preparar os ingredientes e criar sua própria receita do zero.
+
+Passo 1: Acessar a documentação do framework:
+
+
+Passo 2: Criar os links para o CSS e JS, conforme orientações 
+da documentação
+
+Passo 3: Criar inicialmente uma classe 
+
+_________________________________________________________________________________________
+Array ou vetor é uma estrutura de dados indexada
+Array é uma alocação de variável, com a diferençaque ele pode armazenar 
+varios dados.
+O array trabalha com indices , o indice sempre inicia em 0.
+Usos do array:
+- Simplificar o codigo 
+- Estrutura de dados (manipular os dados - banco de dados)
