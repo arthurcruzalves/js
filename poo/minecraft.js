@@ -87,10 +87,10 @@ const enxada = new Enxada("madeira", 2, false)
 enxada.criarEnxada()
 enxada.arar()
 
-const enxada2 = new Enxada("ferro", 10, true)
+const enxada2 = new Enxada("ferro", 5, true)
 enxada2.criarEnxada()
 enxada2.arar()
 
-const enxada3 = new Enxada("diamante", 20, )
+const enxada3 = new Enxada("diamante", 10, false)
 enxada3.criarEnxada()
-enxada3.arar()
+enxada3.minerar()

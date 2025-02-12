@@ -1,60 +1,40 @@
-Java Script
+Coisas que você precisa saber sobre o JavaScript (JS)
 
-- A linguagem JS é case sentive (faz diferença entre letras maiúsculas e minusculas)
-- No JS o ; é opcional
-- Você pode ser "" ou '' não é permitido misturar "' '"
-Dica: usar "textos" e 'importações'
+A linguagem JS é case sensitive (faz diferença entre maiúscula e minúscula)
 
-Variáveis na linguagem JS são dinãmicamente tipadas.
+No JS o ";" é opcional
+
+Não faz diferença usar aspas ou aspas simples, só não é permitido misturar
+(Dica: É recomendado que se use as aspas para "textos" e as aspas simpes para 'importações')
+
+Variávaeis na lingaugem JS são dinâmicamente tipadas.
 - String
 - Number
 - Boolean
-
 - Function
-- Object 
+- Object
+-
+-
 
-Para criar uma constante usamos: const 
-Para criar uma variável podemos usar var ou let, var (obsoleto e inseguro (redeclarar a variável))
+Para criar uma constante usamos: const
+Para criar uma variável podemos usar var ou let
+var (obsoleto e inseguro (redeclarar a variável))
 usar sempre o let
 
-Concatenação (União dos textos com variáveis) + (operador de soma) !EVITAR (tipagem dinâmica)
-Usar crase (Forma moderna e segura) `texto ${variável}
-____________________________________________________________________________________
-Podemos executar código JS no HTML de 2 formas:
-1: Diretamente usando a tag <script></script>
-2: Criando um documento js e linkando com o html usando a tag <script src="script.js"></script>
-____________________________________________________________________________________
+Concatenação (União de textos Variávaeis)
++ (operador de soma) !EVITAR (tipagem dinâmica)
+Usar crase (forma moderna e segura)
+`texto ${variável}`
+________________________________________________________________________
+Podemos executar códigos JS no HTML de duas formas:
 
-NODE - Plataforma que permite execultar o JS fora do navegador de internet
-Comandos NODE
-node -v (versão no node)
-node arquivo.js (exercutar o aquivo JavaScript)
+1 -
+2 - Diretamente usando a tag <script></script>
+2 - Criando um documento JS e linkando com html usando a tag <script src="script.js"></script> 
+________________________________________________________________________
 
-______________________________________________________________________________________
-FRAMEWORK
-Um framework é um conjunto de ferramentos, bibliotecas e regras
-que facilita o desenvolvimento de software, fornecendo uma estrutura 
-pronta para o programador. O framework define um "esqueleto" do 
-projeto, onde você preenche com seu código, seguindo padrões já 
-estabelecidos. Isso economiza tempo, evita a repetição de código 
-e garante boas práticas.
-Um framework é como montar um hambúrgue em uma rede de fast food.
-Sem um framework, você teria que moer a carne, assar pão, 
-preparar os ingredientes e criar sua própria receita do zero.
+## Node - Plataforma que permite a execução do JS fora do navegador de internet
 
-Passo 1: Acessar a documentação do framework:
-
-
-Passo 2: Criar os links para o CSS e JS, conforme orientações 
-da documentação
-
-Passo 3: Criar inicialmente uma classe 
-
-_________________________________________________________________________________________
-Array ou vetor é uma estrutura de dados indexada
-Array é uma alocação de variável, com a diferençaque ele pode armazenar 
-varios dados.
-O array trabalha com indices , o indice sempre inicia em 0.
-Usos do array:
-- Simplificar o codigo 
-- Estrutura de dados (manipular os dados - banco de dados)
+# Comandos Node
+node -v (mostra a versão do node)
+node arquivo.js (executar o arquivo JavaScript)

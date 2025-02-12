@@ -1,5 +1,7 @@
-
-
+/**
+ * Hello World - js
+ */
 
 console.clear()
-console.log()
+console.log
+("Hello World")
