@@ -1,7 +1,7 @@
 /**
  * POO
  * Atividade veículos (Abstração, Herança e Polimorfismo só que com automóveis)
- * @author Allan Vítor
+ * @author Arthur Cruz
  */
 
 // Classe modelo Carro
