@@ -61,6 +61,29 @@ class Enxada extends Bloco{
     }
 }
 
+class Espada extends Bloco{
+    constructor(textura, resistencia, espada) {
+        super(textura, resistencia)
+        this.espada = espada 
+    }
+
+    criarEspada() {
+        console.log("-_")
+        console.log("⚔️")
+        console.log(`Espada de ${this.textura}`)
+        console.log(`Resistencia ${this.resistencia}`)
+    }
+
+    Dano() {
+        console.log("._._._. Dano adquirido!")
+    }
+
+    kill() {
+        console.log("✞ Inimigo finalizado!")
+        }
+    
+}
+
 
 /*****  MUNDO *******/
 console.log(" _____ _____ _____ _____ _____ _____ _____ _____ _____ ")
@@ -94,3 +117,13 @@ enxada2.arar()
 const enxada3 = new Enxada("diamante", 10, false)
 enxada3.criarEnxada()
 enxada3.minerar()
+
+const espada1 = new Espada("ferro", 5)
+espada1.criarEspada()
+espada1.Dano()
+espada1.kill()
+
+const espada2 = new Espada("diamante", 10)
+espada2.criarEspada()
+espada2.Dano()
+espada2.kill()
